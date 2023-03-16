@@ -1,0 +1,10 @@
+{
+  "input_file": {
+    "class": "File",
+    "location": "s3://flynn-test-bucket/md5sum-input-test.txt"
+  },
+  "output_file": {
+    "class": "File",
+    "path": "/tmp/md5sum.txt"
+  }
+}

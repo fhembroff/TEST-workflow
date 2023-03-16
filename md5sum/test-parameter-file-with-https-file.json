@@ -1,0 +1,10 @@
+{
+  "input_file": {
+    "class": "File",
+    "location": "https://qa.dockstore.org/api/ga4gh/trs/v2/tools/%23workflow%2Fgithub.com%2FDataBiosphere%2Ftopmed-workflows%2FUM_variant_caller_wdl/versions/1.32.0/PLAIN_WDL/descriptor/%2Fvariant-caller%2Fvariant-caller-wdl%2Ftopmed_freeze3_calling.wdl"
+  },
+  "output_file": {
+    "class": "File",
+    "path": "/tmp/md5sum.txt"
+  }
+}
