@@ -17,3 +17,10 @@ workflows:
       - /s3demo/inputs.json
     authors:
       - name: Flynn Hembroff
+  - subclass: CWL
+    name: nontrivial
+    primaryDescriptorPath: /nontrivial/nontrivial.cwl
+    testParameterFiles:
+      - /nontrivial/inputs.json
+    authors:
+      - name: Flynn Hembroff
