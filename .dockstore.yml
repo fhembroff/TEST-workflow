@@ -11,6 +11,7 @@ tools:
       - name: Flynn Hembroff
 workflows:
   - subclass: CWL
+    name: S3_DEMO
     primaryDescriptorPath: /s3demo/s3demo.cwl
     testParameterFiles:
       - /s3demo/inputs.json
