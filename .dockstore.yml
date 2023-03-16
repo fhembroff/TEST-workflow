@@ -9,4 +9,10 @@ tools:
     name: md5sum_test
     authors:
       - name: Flynn Hembroff
-
+workflows:
+  - subclass: CWL
+    primaryDescriptorPath: /s3demo/s3demo.cwl
+    testParameterFiles:
+      - /s3demo/inputs.json
+    authors:
+      - name: Flynn Hembroff
