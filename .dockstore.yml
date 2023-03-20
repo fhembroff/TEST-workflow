@@ -24,3 +24,11 @@ workflows:
       - /nontrivial/inputs.json
     authors:
       - name: Flynn Hembroff
+  - subclass: CWL
+    name: manyJobs
+    primaryDescriptorPath: /manyjobs/manyjobs.cwl
+    testParameterFiles:
+      - /manyjobs/inputs.json
+      - /manyjobs/inputs.tiny.json
+    authors:
+      - name: Flynn Hembroff
