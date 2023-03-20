@@ -1,3 +1,3 @@
 # wes-testing
 
-This repo has been created to test dockstore's ability to launch CWL through WES.
+This repo has been created to test dockstore's ability to launch CWL workflows through WES.
