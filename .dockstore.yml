@@ -3,7 +3,8 @@ tools:
   - subclass: CWL
     primaryDescriptorPath: /md5sum/dockstore-tool-md5sum.cwl
     testParameterFiles:
-      - /md5sum/test-parameter-file-where-you-upload-own-md5sum-file.json # You must attach a file named md5sum.input to use this test parameter file
+      # You must attach a file named md5sum.input to use this test parameter file
+      - /md5sum/test-parameter-file-where-you-upload-own-md5sum-file.json
       - /md5sum/test-parameter-file-with-https-file.json
       - /md5sum/test-parameter-file-with-s3.json
     name: md5sum_test
