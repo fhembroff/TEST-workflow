@@ -1,7 +1,7 @@
 {
   "words": {
     "class": "File",
-    "path": "mieliestronk-words.txt"
+    "path": "https://raw.githubusercontent.com/dockstore-testing/tooltester-wes-testing/178957c33c37ce5b91e2c973c1f5dd6870c31b6a/words/mieliestronk-words.txt"
   },
   "vowels": ["a","e","i","o","u"]
 }
