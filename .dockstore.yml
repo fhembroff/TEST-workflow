@@ -32,3 +32,10 @@ workflows:
       - /manyjobs/inputs.tiny.json
     authors:
       - name: Flynn Hembroff
+  - subclass: CWL
+    name: words
+    primaryDescriptorPath: /words/main.cwl
+    testParameterFiles:
+      - /words/inputs.json
+    authors:
+      - name: Flynn Hembroff
